@@ -1,0 +1,13 @@
+next to-do
+1. membuat isi konten pada carousel (done)
+2. membuat isi pada menu navigasi bar 
+3. memunculkan youtube pada menu gallery (done)
+4. merapihkan navigasi bar
+5. menambahkan footer
+6. membuat API Google maps
+7. membuat databases
+8. About di HomePage
+9. Membuat mode malam 
+
+NEED TO BE FIX
+1. 
