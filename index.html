@@ -105,7 +105,7 @@
                         <div class="card-body">
                             <h5 class="card-title text-center">Games Terbaru!</h5>
                             <p class="card-text">Kami menyediakan beragam game terbaru dengan harga yang bersahabat!</p>
-                            <a href="/contact/index.html" class="btn btn-dark d-block">Buy Now</a>
+                            <a class="btn btn-dark d-block" data-bs-toggle="modal" data-bs-target="#gamesTerbaru">Buy Now</a>                           
                             <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                 New
                             </span>
@@ -132,7 +132,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Alamat Toko</h5>
                             <p class="card-text">jl. Puspitek raya no 53 Pamulang selatan. klik di bawah ini untuk detail</p>
-                            <a href="about/index.html" class="btn btn-dark d-block">Lihat Detail Lokasi</a>
+                            <a class="btn btn-dark d-block" data-bs-toggle="modal" data-bs-target="#gamesTerbaru">Lihat Detail Lokasi</a>
                         </div>
                     </div>
                 </div>
@@ -142,13 +142,15 @@
                         <div class="card-body">
                             <h5 class="card-title">Social Media</h5>
                             <p class="card-text">Follow kami di Instagram, Twitter, Facebook dan Youtube</p>
-                            <a href="sosmed/index.html" class="btn btn-dark d-block">Follow Sosmed</a>
+                            <a href="about/index.html" class="btn btn-dark d-block">Follow Sosmed</a>
                         </div>
                     </div>
                 </div>
 
             </div>
         <!-- card end -->
+
+        
 
         <!-- footer start -->
         <footer class="footer">
@@ -182,6 +184,25 @@
         
     </div>
     <!-- layout 1 end -->
+
+    <!-- Modal Start -->
+    <div class="modal fade" id="gamesTerbaru" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">HALLO!!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Coming Soon Gais!!</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Modal Start end -->
     
     <script src="/bootstrap-5.3/js/bootstrap.min.js"></script>
 </body>
